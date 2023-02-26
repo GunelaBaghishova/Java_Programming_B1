@@ -1,6 +1,6 @@
 package day07_relational_operators;
 
-public class Agegroup {
+public class AgeGroup {
 
     /*    declare and assign an age variable
 
