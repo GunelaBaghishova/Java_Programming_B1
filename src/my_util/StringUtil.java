@@ -37,9 +37,30 @@ public class StringUtil {
          fixed = str.substring(0,1).toUpperCase() + str.substring(1).toLowerCase();
         return fixed;
 
+    }
+    public static int frequencyOfCharacter (String str, char ch) {
+        int count = 0;
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == ch) {
+                count++;
+            }
+        }
+        return count;
+    }
 
+
+    public static String camelCase(String str) {   //"JAVA will ruLE tHe wORLd"
+        // JavaWillRuleTheWorld
+        String[] arr = str.split(" ");
+        String result = "";
+        for (String each : arr) {
+            result += (each.charAt(0) + "").toUpperCase() + each.substring(1).toLowerCase();
+        }
+        // JavaWillRuleTheWorld
+        return (result.charAt(0) + "").toLowerCase() + result.substring(1);
 
     }
+
 
 
 

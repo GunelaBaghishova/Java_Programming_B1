@@ -27,7 +27,7 @@ public class UniqueCharacters {
 
             if(!checked.contains(str.charAt(i)+"")){
 
-                int count = StringUtil.frequencyOfCharacters(str,str.charAt(i));
+                int count = StringUtil.frequencyOfCharacter(str,str.charAt(i));
 
                 checked += str.charAt(i);
 
