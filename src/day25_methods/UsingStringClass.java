@@ -15,12 +15,12 @@ public class UsingStringClass {
         System.out.println("--------------------------------------");
         System.out.println();
 
-        System.out.println(StringUtil.cameCase("SomeTIMES i underStanD jaVa buT SomeTIMES nOT"));
+        System.out.println(StringUtil.camelCase("SomeTIMES i underStanD jaVa buT SomeTIMES nOT"));
         System.out.println("--------------------------------------");
         System.out.println();
 
-        System.out.println(StringUtil.frequencyOfCharacters("camera", 'a'));
-        System.out.println(StringUtil.frequencyOfCharacters("camera", 'z'));
+        System.out.println(StringUtil.frequencyOfCharacter("camera", 'a'));
+        System.out.println(StringUtil.frequencyOfCharacter("camera", 'z'));
         System.out.println("--------------------------------------");
         System.out.println();
     }
