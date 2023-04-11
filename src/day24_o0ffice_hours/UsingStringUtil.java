@@ -5,10 +5,10 @@ import my_util.StringUtil;
 public class UsingStringUtil {
     public static void main(String[] args) {
 
-     StringUtil.reversedStr("loopcamp");
+     StringUtil.reverseStr("loopcamp");
 
-        System.out.println(StringUtil.reversedStr("Hello World!"));
-        System.out.println(StringUtil.reversedStr("loop camp!"));
+        System.out.println(StringUtil.reverseStr("Hello World!"));
+        System.out.println(StringUtil.reverseStr("loop camp!"));
 
     }
 

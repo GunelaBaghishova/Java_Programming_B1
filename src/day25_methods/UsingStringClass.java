@@ -6,7 +6,7 @@ public class UsingStringClass {
 
     public static void main(String[] args) {
 
-        System.out.println(StringUtil.reversedStr("David Suleyman"));
+        System.out.println(StringUtil.reverseStr("David Suleyman"));
         System.out.println("--------------------------------------");
         System.out.println();
 
