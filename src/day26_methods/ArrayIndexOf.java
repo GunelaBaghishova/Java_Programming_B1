@@ -9,7 +9,12 @@ public class ArrayIndexOf {
         int [] arr = {3, 1, 546, 34, 23};
         //            0  1   2    3   4
         int num = 546;
+
+
+
+
     }
+
     public static int indexOf2 (int [] arr, int num) {
 
         int locationOfElement = 0;
@@ -32,8 +37,5 @@ public class ArrayIndexOf {
             }
         }
 return  -1;
-}
-
-
-}
+}}
 

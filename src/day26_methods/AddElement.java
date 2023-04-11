@@ -23,13 +23,16 @@ public class AddElement {
         newArr[newArr.length-1] = num;
 
         return newArr;
+
     }
+
     public static String [] add (String [] arr, String num) {
 
         String [] newArr = Arrays.copyOf(arr, arr.length+1);
         newArr[newArr.length-1] = num;
 
         return newArr;
+
     }
 
 
