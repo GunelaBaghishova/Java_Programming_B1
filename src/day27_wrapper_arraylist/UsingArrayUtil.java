@@ -1,10 +1,10 @@
-package day26_methods;
+package day27_wrapper_arraylist;
 
 import my_util.ArrayUtil;
 
 import java.util.Arrays;
 
-public class UsingArraysUtil {
+public class UsingArrayUtil {
 
     public static void main(String[] args) {
 
@@ -24,9 +24,4 @@ public class UsingArraysUtil {
 
         System.out.println( Arrays.toString( ArrayUtil.addElemBeginning(word, allWords)));
     }
-
-
-
-
-
 }
