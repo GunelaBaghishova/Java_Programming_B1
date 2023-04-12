@@ -6,4 +6,7 @@ public class EscapeSequence2 {
         System.out.println("\"iphone case\", \"iphone\", \"xbox\", \"webcam\", \"monitor\"");
 
     }
+
+
+
 }
