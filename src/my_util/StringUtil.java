@@ -31,16 +31,6 @@ public class StringUtil {
         return fixed;
     }
 
-    }
-    public static int frequencyOfCharacter (String str, char ch) {
-        int count = 0;
-        for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) == ch) {
-                count++;
-            }
-        }
-        return count;
-    }
 
     /**
      This method will accept a String with multiple words
@@ -59,16 +49,6 @@ public class StringUtil {
         }
         // JavaWillRuleTheWorld
         return (result.charAt(0)+"").toLowerCase() + result.substring(1);
-
-    public static String camelCase(String str) {   //"JAVA will ruLE tHe wORLd"
-        // JavaWillRuleTheWorld
-        String[] arr = str.split(" ");
-        String result = "";
-        for (String each : arr) {
-            result += (each.charAt(0) + "").toUpperCase() + each.substring(1).toLowerCase();
-        }
-        // JavaWillRuleTheWorld
-        return (result.charAt(0) + "").toLowerCase() + result.substring(1);
 
     }
 
@@ -114,9 +94,6 @@ public class StringUtil {
         }
         return unique;
     }
-
-
-
 
 
 }
