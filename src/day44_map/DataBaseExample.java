@@ -12,7 +12,7 @@ public class DataBaseExample {
                 FIRST_NAME: James
                 LAST_NAME: GOSLING
                 BATCH: 1
-
+         */
 
         Map<String, String> people = new HashMap<>();
         people.put("FIRST_NAME", "James");
